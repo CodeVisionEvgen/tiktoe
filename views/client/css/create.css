@@ -1,0 +1,30 @@
+#users {
+    width: 250px;
+    height: 281px;
+    background: gray;
+    margin: 10px -210px;
+}
+#create {
+    grid-template-columns: auto auto;
+    text-align: center;
+display: grid;
+gap: 50%;
+height: 300px;
+width: 600px;
+margin: 0 auto;
+justify-content: center;
+background-color: rgb(106, 106, 106);
+border-radius: 15px;
+}
+#content > h2 {
+    margin: 20px;
+    padding: 10px;
+    width: max-content;
+    height: max-content;
+    color: yellow;
+    border-radius: 10px;
+    background: #444;
+}
+#content {
+    display: grid;
+}

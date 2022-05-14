@@ -1,0 +1,25 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        link(rel="stylesheet", href="client/css/create.css")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Створення кімнати
+    body 
+     div#create
+      div#content
+       h2#uuid #{game}
+       input(type="button",id='start', value="Розпочати гру") 
+       br
+       a(href="/") Назад 
+      div#users #{nick}
+    script(src="/socket.io/socket.io.js")
+    script(src="/client/script/create.js") 
+
+
+
+
+    //-   form(action="/api/create", method="post")
+    //-    input(type="text" name='name' placeholder="Імʼя кімнати")
+    //-    input(type="submit", value="Створити")  
